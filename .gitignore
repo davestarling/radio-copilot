@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# local config/state/logs (do not commit)
+config.json
+state.json
+runs/
+orchestrator.log
+
+# editor
+.DS_Store

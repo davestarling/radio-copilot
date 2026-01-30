@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "tz": "Europe/London",
+  "observer": { "lat": 51.5007, "lon": -0.1246, "heightM": 0 },
+  "tle": { "source": "ivanstanojevic", "refreshHours": 6 },
+  "schedule": {
+    "lookAheadMinutes": 180,
+    "pollMinutes": 5,
+    "alertLeadMinutes": 10,
+    "minRepeatMinutes": 30
+  },
+  "satellites": [
+    {
+      "name": "NOAA 19",
+      "norad": 33591,
+      "minElevationDeg": 20,
+      "capture": { "enabled": false, "command": "echo TODO capture", "timeoutSeconds": 900 },
+      "decode": { "enabled": false, "command": "echo TODO decode", "timeoutSeconds": 1800 }
+    }
+  ],
+  "storage": {
+    "root": "~/.clawdbot/radio-copilot",
+    "runsDir": "runs",
+    "stateFile": "state.json"
+  },
+  "notify": { "channel": "whatsapp", "target": "+15555550123" }
+}
