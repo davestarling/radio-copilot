@@ -9,7 +9,7 @@ Purpose:
 - Send WhatsApp alerts (start/end/summary) via Clawdbot CLI.
 
 This is a *skeleton*: it supports the job lifecycle and state/dedupe now.
-Tomorrow, once we have Pi/Jetson details + exact commands, we plug in capture/decode.
+TODO: Once we have Pi/Jetson details + exact commands, we plug in capture/decode.
 
 Safety:
 - Does nothing unless config.enabled=true
