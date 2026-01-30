@@ -1,4 +1,4 @@
-# radio-copilot (Moltbot/Clawdbot add-on)
+# moltbot-satellite-copilot (Moltbot/Clawdbot add-on)
 
 A *zero-AI* satellite pass planner + orchestrator that can:
 - predict upcoming satellite passes over a given lat/lon (NORAD + TLE)
