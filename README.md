@@ -7,6 +7,10 @@ A *zero-AI* satellite pass planner + orchestrator that can:
 
 This repo is the **skeleton/orchestration layer**. It’s designed to be safe and production-friendly: nothing transmits or captures unless you enable it.
 
+## Example alert
+
+![Example WhatsApp pass alert](assets/example-pass-alert.jpg)
+
 ## What you need
 
 - Node.js (for pass prediction)
